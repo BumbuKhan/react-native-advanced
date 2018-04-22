@@ -22,7 +22,7 @@ class Deck extends Component {
             onPanResponderMove: (event, gesture) => {
                 position.setValue({
                     x: gesture.dx,
-                    y: gesture.dy
+                    //y: gesture.dy
                 })
             },
             onPanResponderRelease: (event, gesture) => {
