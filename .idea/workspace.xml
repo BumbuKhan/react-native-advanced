@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="29b1d7e7-4623-4a1b-9ecf-10f6ddee263e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Deck.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Deck.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -34,19 +33,19 @@
       <file leaf-file-name="Deck.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Deck.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
+            <state relative-caret-position="227">
+              <caret line="114" column="25" selection-start-line="114" selection-start-column="25" selection-end-line="114" selection-end-column="25" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
                 <element signature="e#296#396#0" />
                 <element signature="n#!!block;n#constructor#0;n#Deck#0" />
                 <element signature="n#!!block;n#componentWillUpdate#0;n#Deck#0" />
+                <element signature="n#!!block;n#componentWillReceiveProps#0;n#Deck#0" />
                 <element signature="e#1086#1102#0" />
                 <element signature="e#1438#1629#0" />
                 <element signature="e#780#796#0" />
                 <element signature="e#677#734#0" />
-                <element signature="e#2619#3710#0" />
-                <element signature="n#!!block;n#render#0;n#Deck#0" />
+                <element signature="e#3873#3952#0" />
               </folding>
             </state>
           </provider>
@@ -139,12 +138,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524391267351</updated>
-      <workItem from="1524391269291" duration="10676000" />
+      <workItem from="1524391269291" duration="11521000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10676000" />
+    <option name="totallyTimeSpent" value="11521000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="824" extended-state="6" />
@@ -189,19 +188,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Deck.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
+        <state relative-caret-position="227">
+          <caret line="114" column="25" selection-start-line="114" selection-start-column="25" selection-end-line="114" selection-end-column="25" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
             <element signature="e#296#396#0" />
             <element signature="n#!!block;n#constructor#0;n#Deck#0" />
             <element signature="n#!!block;n#componentWillUpdate#0;n#Deck#0" />
+            <element signature="n#!!block;n#componentWillReceiveProps#0;n#Deck#0" />
             <element signature="e#1086#1102#0" />
             <element signature="e#1438#1629#0" />
             <element signature="e#780#796#0" />
             <element signature="e#677#734#0" />
-            <element signature="e#2619#3710#0" />
-            <element signature="n#!!block;n#render#0;n#Deck#0" />
+            <element signature="e#3873#3952#0" />
           </folding>
         </state>
       </provider>

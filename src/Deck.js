@@ -110,15 +110,23 @@ class Deck extends Component {
                 );
             }
 
-            return (
-                <Animated.View
-                    key={item.id}
-                    style={[styles.card, {
-                        top: 10 * (i - this.state.index)
-                    }]}>
-                    {this.props.renderCard(item)}
-                </Animated.View>
-            );
+            let _index = i - this.state.index;
+
+            if (_index >= 3) {
+                return null;
+            } else {
+                return (
+                    <Animated.View
+                        key={item.id}
+                        style={[styles.card, {
+                            top: 5 * (i - this.state.index),
+                            width: SCREEN_WIDTH - (2 * (5 * _index)),
+                            marginLeft: 5 * _index
+                        }]}>
+                        {this.props.renderCard(item)}
+                    </Animated.View>
+                );
+            }
         }).reverse();
     };
 
