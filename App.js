@@ -37,6 +37,13 @@ export default class App extends React.Component {
                 <Deck
                     data={DATA}
                     renderCard={this.renderCard}
+                    renderNoMoreCards={() => {
+                        return (
+                            <View style={{ marginTop: 20 }}>
+                                <Text>No more card to swipe</Text>
+                            </View>
+                        );
+                    }}
                 />
             </View>
         );
